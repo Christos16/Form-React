@@ -16,7 +16,9 @@ const FormSignup = ({ submitForm }) => {
   return (
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
-        <h1>Get started with us today! Fill the fields below to continue.</h1>
+        <h1>
+          Get started with us today! Fill in the fields below to continue.
+        </h1>
         <div className='form-inputs'>
           <label className='form-label'>Name</label>
           <input

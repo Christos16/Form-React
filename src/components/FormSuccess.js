@@ -41,7 +41,7 @@ const FormSuccess = () => {
   return (
     <div className='form-content-right'>
       <h1 className='form-success'>
-        Your form has been succesfully submitted!
+        Your form has been successfully submitted!
       </h1>
       <div className='form-success-image'>
         <img
