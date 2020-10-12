@@ -32,9 +32,12 @@ const FormInput = (callback, validate) => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line
     if (Object.keys(errors).length === 0 && isSubmitting) {
+      // eslint-disable-next-line
       callback();
     }
+    // eslint-disable-next-line
   }, [errors]);
 
   return { handleChange, handleSubmit, values, errors };
