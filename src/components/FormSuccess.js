@@ -15,7 +15,7 @@ const FormSuccess = () => {
         </div>
         <div>
           <h2>Surname:</h2>
-          {user.name}
+          {user.surname}
         </div>
         <div>
           <h2>Date of birth:</h2>
